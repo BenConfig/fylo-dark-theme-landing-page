@@ -181,9 +181,8 @@ address { font-style: normal; }
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 87.125rem;
     padding-top: clamp(.875rem, -1.1875rem + 8.86vw, 3.937rem);
-    padding-inline: clamp(.9375rem, -.4375rem + 5.97vw, 3rem);
+    padding-inline: max(.675rem, calc(50% - clamp(11rem, .5625rem + 44.60vw, 40.6875rem)));
     padding-bottom: clamp(.875rem, -.25rem + 4.7vw, 2.5rem);
 }
 
@@ -374,6 +373,7 @@ address { font-style: normal; }
     background: linear-gradient(to right, var(--clr-white) 50%, var(--clr-accent) 0)
                 right / 200%;
     background-clip: text;
+    -webkit-background-clip: text;
     transition: background-position var(--ad-short);
 }
 
