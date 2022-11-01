@@ -16,7 +16,7 @@ Users should be able to:
 ![](./screenshot-mobile.png)
 
 ### Desktop
-![](./screenshot-deaktop.png)
+![](./screenshot-desktop.png)
 
 ## Built with
 
